@@ -109,11 +109,11 @@ int main (int argc, char* argv[]) {
     application<hybrid>* myapp = init_app<hybrid>();
     myapp->run(p);
   }
-  else if(l == "block"){
+  /*else if(l == "block"){
     std::cout << "LAYOUT: block, # THREADS: " << NUM_THREADS << ", PATH: " << p  << std::endl;
     application<block>* myapp = init_app<block>();
     myapp->run(p);
-  } 
+  }*/
   else{
     std::cout << "No valid layout entered" << std::endl;
     abort ();
